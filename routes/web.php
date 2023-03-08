@@ -33,3 +33,6 @@ Route::middleware([
         return Inertia::render('Dashboard');
     })->name('dashboard');
 });
+
+
+//Route::middleware(['auth'])->group('/index', [CRUDController::class, 'index'])->name('index');
